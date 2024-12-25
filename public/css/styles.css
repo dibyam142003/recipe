@@ -43,3 +43,23 @@ a { color: var(--bs-dark); }
   width: 100%;
   object-fit: cover;
 }
+
+.about-section, .contact-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.about-section h2, .contact-section h2 {
+  color: #333;
+}
+
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-section ul li {
+  margin: 5px 0;
+}
